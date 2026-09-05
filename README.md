@@ -22,7 +22,7 @@ Built an end-to-end analytics pipeline that cleans raw retail data, explores it 
 - **Power BI** — interactive dashboard for visualizing inventory levels, sales by category, seasonal performance, and revenue by region.
 
 ## Dashboard Preview
-![Retail Inventory Dashboard](dashboard/retail_inventory_dashboard.png)
+![Retail Inventory Dashboard](retail_inventory_dashboard.png)
 
 ## Project Files
 - `notebooks/Retail_inventory_cleaning.ipynb` — Python data cleaning process
