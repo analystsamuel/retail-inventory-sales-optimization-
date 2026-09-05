@@ -22,19 +22,17 @@ Built an end-to-end analytics pipeline that cleans raw retail data, explores it 
 - **Power BI** — interactive dashboard for visualizing inventory levels, sales by category, seasonal performance, and revenue by region.
 
 ## Dashboard Preview
-![Retail Inventory Dashboard](retail_inventory_dashboard.png)
+![Retail Inventory Dashboard](retail%20inventory%20dashboard.png)
 
 ## Project Files
-- `notebooks/Retail_inventory_cleaning.ipynb` — Python data cleaning process
-- `sql/retail_inventory_queries.sql` — exploratory SQL analysis and aggregation queries
-- `data/retail_inventory_raw.csv` — original raw dataset
-- `data/retail_inventory_cleaned.csv` — cleaned dataset used for analysis
-- `dashboard/retail_inventory_dashboard.png` — final Power BI dashboard
+- [Retail inventory cleaning.ipynb](Retail%20inventory%20cleaning.ipynb) — Python data cleaning process
+- [retail_inventory_queries.sql](retail_inventory_queries.sql) — exploratory SQL analysis and aggregation queries
+- [retail_inventory_raw.csv](retail_inventory_raw.csv) — original raw dataset
+- [retail_inventory_cleaned.csv](retail_inventory_cleaned.csv) — cleaned dataset used for analysis
+- [Retail Inventory Dashboard.pbix](Retail%20Inventory%20Dashboard.pbix) — the interactive Power BI dashboard file
+- [retail inventory dashboard.png](retail%20inventory%20dashboard.png) — dashboard preview image
 
 ## Process Overview
 1. **Data Cleaning (Python/Pandas)** — Identified and handled missing values on a column-by-column basis, reasoning through what a missing value actually meant in each business context (e.g. a missing discount likely means no discount was applied, while a missing inventory level does not necessarily mean zero stock). Standardized text fields and converted date columns to a proper datetime format.
 2. **Exploratory Analysis (SQL)** — Loaded the cleaned dataset into MySQL and ran queries to calculate total inventory, revenue by category, revenue by season, and average discount rates.
 3. **Visualization (Power BI)** — Connected the analysis to an interactive dashboard summarizing total revenue, stock levels, demand fulfillment, sales by category, and seasonal performance — giving retail managers a clear view for reorder and stocking decisions.
-
-## Author
-Built by Samuel ("Muel") as part of an ongoing data analytics portfolio, combining SQL, Python, and Power BI to solve real retail decision-making problems.
