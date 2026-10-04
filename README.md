@@ -33,12 +33,12 @@ Built an end-to-end retail analytics solution that cleans raw inventory and sale
 
 ## Project Files
 
-- [Retail inventory cleaning.ipynb](Retail%20inventory%20cleaning.ipynb)
-- [retail_inventory_queries.sql](retail_inventory_queries.sql)
-- [retail_inventory_raw.csv](retail_inventory_raw.csv)
-- [retail_inventory_cleaned.csv](retail_inventory_cleaned.csv)
-- [Retail Inventory Dashboard.pbix](Retail%20Inventory%20Dashboard.pbix)
-- [Retain Analysis.png](Retain%20Analysis.png)
+- [Retail inventory cleaning.ipynb](Retail%20inventory%20cleaning.ipynb) - Python data cleaning process
+- [retail_inventory_queries.sql](retail_inventory_queries.sql) - exploratory SQL analysis and aggregation queries
+- [retail_inventory_raw.csv](retail_inventory_raw.csv) -  original raw dataset
+- [retail_inventory_cleaned.csv](retail_inventory_cleaned.csv) - cleaned dataset used for analysis
+- [Retail Inventory Dashboard.pbix](Retail%20Inventory%20Dashboard.pbix) - interactive Power BI dashboard
+- [Retain Analysis.png](Retain%20Analysis.png) - dashboard preview image
 
 ## Process Overview
 
